@@ -2,22 +2,12 @@ package com.bsk.locoff
 
 import android.app.ProgressDialog
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.bsk.locoff.model.ApiResponse
-import com.bsk.locoff.model.RetrofitInstance
-import com.bsk.locoff.model.RetrofitService
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import com.bsk.locoff.viewmodel.MyViewModel
 
 class MainActivity : AppCompatActivity() {
    lateinit   var adapter: Adapter

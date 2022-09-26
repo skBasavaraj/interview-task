@@ -1,10 +1,10 @@
-package com.bsk.locoff
+package com.bsk.locoff.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.bsk.locoff.model.ApiResponse
-import com.bsk.locoff.model.RetrofitInstance
-import com.bsk.locoff.model.RetrofitService
+import com.bsk.locoff.network.RetrofitInstance
+import com.bsk.locoff.network.RetrofitService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
