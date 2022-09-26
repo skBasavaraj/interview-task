@@ -1,4 +1,4 @@
-package com.bsk.locoff.model
+package com.bsk.locoff.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
