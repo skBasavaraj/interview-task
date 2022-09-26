@@ -17,6 +17,10 @@ class MyViewModel:ViewModel() {
      fun getViewModel():MutableLiveData<List<ApiResponse>>{
        return  mutableLiveData
     }
+
+    /**
+     *   request api
+     */
     fun makeApiCall(){
         val retrofitService =  RetrofitInstance.getInstance().create(RetrofitService::class.java)
         val data = retrofitService.getDataFromAPI()

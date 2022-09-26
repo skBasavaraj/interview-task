@@ -23,7 +23,6 @@ class Adapter(var activity:Activity) : RecyclerView.Adapter<Adapter.ViewHolder>(
 
     override fun onBindViewHolder(holder: Adapter.ViewHolder, position: Int) {
         holder.bind(list?.get(position)!!)
-//        val listItems = list?.get(position)
 
     }
 

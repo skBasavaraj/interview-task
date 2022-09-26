@@ -1,9 +1,7 @@
 package com.bsk.locoff.model
 
-import com.google.gson.annotations.SerializedName
 
 data class ApiResponse(
-
     var id: Int? = null,
     var name: String? = null,
     var username: String? = null,
@@ -15,28 +13,24 @@ data class ApiResponse(
 )
 
 data class Geo(
-
-     var lat: String? = null,
-     var lng: String? = null
-
+    var lat: String? = null,
+    var lng: String? = null
 )
 
-
 data class Address(
-
-      var street: String? = null,
-     var suite: String? = null,
- var city: String? = null,
-   var zipcode: String? = null,
-   var geo: Geo? = Geo()
+    var street: String? = null,
+    var suite: String? = null,
+    var city: String? = null,
+    var zipcode: String? = null,
+    var geo: Geo? = Geo()
 
 )
 
 
 data class Company(
 
- var name: String? = null,
-  var catchPhrase: String? = null,
-      var bs: String? = null
+    var name: String? = null,
+    var catchPhrase: String? = null,
+    var bs: String? = null
 
 )
