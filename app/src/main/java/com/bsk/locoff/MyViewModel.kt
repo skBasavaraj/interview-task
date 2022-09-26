@@ -17,7 +17,6 @@ class MyViewModel:ViewModel() {
      fun getViewModel():MutableLiveData<List<ApiResponse>>{
        return  mutableLiveData
     }
-
     /**
      *   request api
      */

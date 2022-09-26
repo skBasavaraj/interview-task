@@ -13,7 +13,6 @@ class Adapter(var activity:Activity) : RecyclerView.Adapter<Adapter.ViewHolder>(
     fun setAdapterList( list:List<ApiResponse>) {
         this.list=list
     }
-
     /**   below line for using List collection*/
     //class Adapter(val list: List<ApiResponse>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Adapter.ViewHolder {

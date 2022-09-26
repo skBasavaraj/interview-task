@@ -6,7 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface RetrofitService {
-
-@GET("users")
+  @GET("users")
   fun getDataFromAPI(): Call<ArrayList<ApiResponse>>
 }
